@@ -5,7 +5,7 @@ const rubik = Rubik({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-center text-white bg-[#060D13] px-4 md:px-24 py-24">
+        <main className="flex min-h-screen flex-col items-center justify-center text-white bg-[#060D13] px-10 md:px-24 py-24">
             <div className={rubik.className + " flex flex-col gap-4 w-full max-w-5xl relative"}>
                 <h1 className="font-bold text-5xl relative after:absolute after:top-[calc(100%+.25rem)] after:left-0 after:h-1 after:w-20 after:bg-[#33FF88] after:rounded-sm">Scanlation group</h1>
                 <p className="text-lg mt-2">Estamos creando un grupo de scans!</p>
